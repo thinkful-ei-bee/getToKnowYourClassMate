@@ -6,13 +6,20 @@ main .row {
   margin-bottom: 20px;
 }
 
+img{
+  height: 160px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom:25px;
+}
+
 .box {
   height: 200px;
   text-align: center;
   padding-top: 30px;
   border-radius:100%;
-  margin-top:15px;
-  border:1px solid grey;
+  margin-top:45px;
+  
 }
 
 .black {
@@ -24,7 +31,7 @@ main .row {
   background-color: green;
 }
 
-.orange {
+.image {
   background-color: orange;
 }
 

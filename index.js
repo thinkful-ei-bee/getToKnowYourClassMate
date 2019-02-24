@@ -67,6 +67,9 @@ function drawGrids(){
     console.log('test start game button');
     let elementString = generateGrid(12); 
    $('main .row').html(elementString);
+   $('.row').on('mouseover','.box',function(event){
+      $(this).addClass('orange');
+   });
   });
 
 }
